@@ -1,10 +1,7 @@
-/* * {
-    font-family: Roboto;
-}
-
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
 .navy-blue {
@@ -25,6 +22,8 @@ h3 {
 ul {
     display: flex;
     list-style: none;
+    gap: 15px;
+    align-items: center;
     margin: 0px;
     padding: 10px;
 }
@@ -33,4 +32,12 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-} */
+}
+
+/* h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.intro p */
