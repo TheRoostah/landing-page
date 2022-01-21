@@ -42,7 +42,7 @@ h1 {
     margin: 25px 0px;
 }
 
-p {
+.navy-blue p {
     color: #F9FAF8;
     line-height: 28px;
 }
@@ -62,4 +62,27 @@ button {
     display: flex;
     margin: 20px 0px;
     gap: 20px;
+}
+
+.information {
+    padding: 50px 150px;
+}
+
+.testimony>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 8px solid #3882F6;
+}
+
+.testimony {
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px 0px;
 }
