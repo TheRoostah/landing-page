@@ -57,10 +57,11 @@ button {
     color: #F9FAF8;
     font-family: 'Roboto';
     border-radius: 10px;
-    padding: 5px 25px;
+    padding: 8px 30px;
     font-weight: bold;
     font-size: 15px;
 }
+
 
 .intro {
     display: flex;
@@ -69,14 +70,14 @@ button {
     justify-content: center;
 }
 
-.information {
+.testimonial-container {
     padding: 50px 150px;
 }
 
 
 .testimony>img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     border: 8px solid #3882F6;
 }
@@ -108,5 +109,41 @@ button {
     font-weight: 300px; 
     font-style: italic; 
     color: #1f2937;
-    line-height: 50px;
+    line-height: 60px;
+    text-align: justify;
+}
+
+.footer {
+    padding: 100px 200px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 40px 80px;
+    border-radius: 10px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cta h3 {
+    margin-top: 0px;
+}
+
+.cta button {
+    align-self: center;
+    border: 2px solid #f9faf8;
+}
+
+.post-script {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 20px;
 }
