@@ -73,6 +73,7 @@ button {
     padding: 50px 150px;
 }
 
+
 .testimony>img {
     width: 200px;
     height: 200px;
@@ -90,4 +91,22 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     padding: 25px 0px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote-container {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.quote {
+    font-size: 36px; 
+    font-weight: 300px; 
+    font-style: italic; 
+    color: #1f2937;
+    line-height: 50px;
 }
